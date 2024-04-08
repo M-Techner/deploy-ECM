@@ -88,6 +88,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "ecmv8:build:production"
+          }          
         }
       }
     }
